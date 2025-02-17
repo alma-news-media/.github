@@ -30,7 +30,10 @@ Admin group can approve PRs to default template and .github repositories:
 - Janne Saraste
 - Pentti Oinonen
 
-## Developer
+## Developers group
 
 All users invited to organization should be added to Developers group. By default this group is set as admin to all repositories excluding .github repository of the organization.
-s group
+
+## Other user groups
+
+Other groups can be created as needed by organization owners. One example use case is group for specific team that can then be used to request reviews. All groups should have Developers as parent group.
