@@ -13,7 +13,7 @@ New repositories should be created internal, which is also organization default.
 
 ## Owners group
 
-Organization owners that are allowed to change all organization settings:
+Organization owners that are allowed to change all organization settings. They can also administer CodeRabbit's organization settings including managing seats:
 - Markus Heikkilä
 - Tomi Vainio
 - Valon Ruka
@@ -21,17 +21,17 @@ Organization owners that are allowed to change all organization settings:
 
 ## Admins group
 
-Admin group can approve PRs to default template and .github repositories:
+Admin group can approve PRs to  [default template](https://github.com/alma-news-media/default-template) and .github repositories. They also can administer Github Actions runners & policies & organization secrets:
 - Markus Heikkilä
 - Joni Väyrynen
-- Ukko Sarekoski
+- Ukko Sarekoski 
 - Janne Saraste
 - Pentti Oinonen
 
 ## Developers group
 
-All users invited to organization should be added to Developers group. By default this group is set as admin to all repositories excluding .github repository of the organization.
+All users invited to organization should be added to Developers group. This group has organization role all-repositories-admin, so members get full admin privileges to all repositories in alma-news-media.
 
 ## Other user groups
 
-Other groups can be created as needed by organization owners. One example use case is group for specific team that can then be used to request reviews. All groups should have Developers as parent group.
+Other groups can be created as needed by organization owners. One example use case is a group for specific team that can then be used to request reviews. All groups should have Developers as parent group.
