@@ -18,6 +18,7 @@ Organization owners that are allowed to change all organization settings. They c
 - Tomi Vainio
 - Valon Ruka
 - Onni Valkeapää
+- Antti Koivisto (Alma CTO, github enterprise & AI integrations)
 
 ## Admins group
 
